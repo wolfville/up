@@ -1,0 +1,35 @@
+graph TD
+    A[Herramientas Matemático-Financieras para el Análisis del Riesgo de Inversión] --> B[Estadística Descriptiva]
+    A --> C[Teoría de Probabilidad]
+    A --> D[Análisis de Sensibilidad]
+    A --> E[Simulación de Montecarlo]
+    A --> F[Teoría de Portafolio]
+
+    subgraph Estadística Descriptiva
+        B --> G[Media]
+        B --> H[Desviación Estándar]
+        B --> I[Coeficiente de Variación]
+    end
+
+    subgraph Teoría de Probabilidad
+        C --> J[Distribuciones de Probabilidad]
+        J --> K[Distribución Normal]
+        J --> L[Distribución Binomial]
+    end
+
+    subgraph Análisis de Sensibilidad
+        D --> M[Análisis de Escenarios]
+        D --> N[Análisis de Punto de Equilibrio]
+    end
+
+    subgraph Simulación de Montecarlo
+        E --> O[Generación de Números Aleatorios]
+        E --> P[Modelado de Variables Inciertas]
+        E --> Q[Análisis de Resultados]
+    end
+
+    subgraph Teoría de Portafolio
+        F --> R[Diversificación]
+        F --> S[Frontera Eficiente]
+        F --> T[Coeficiente Beta]
+    end
